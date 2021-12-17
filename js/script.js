@@ -33,10 +33,12 @@ let foo;
 for (let i = 0; i <= 100; i++){
     foo = idGenerator();
 }
+//сортировка
+// foo = foo.sort((a, b) => a - b);
 
 console.log(foo);
 
-// foo = foo.sort((a, b) => a - b);
+
     
 
 
